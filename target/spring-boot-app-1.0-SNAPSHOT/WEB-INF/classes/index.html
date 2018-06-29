@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Title2</title>
+    <link href="index.css" rel="stylesheet" tipe="text/css">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="header-panel">
+
+    </div>
+
+
+<div id="mainMenu"  class="topMenu">
+<ul id="mainMenuItems" class="topMenuUl">
+    {{#mainMenu.items}}<li class="topMenuLi"><a href="{{link}}" class="topMenuA">{{name}}</a></li> {{/mainMenu.items}}
+</ul>
+    <br>
+</div>
+<div id="advertising" class="rightMenu">
+    <ul id="advertisingItems" >
+        {{# advertising.items}}<li><a href="{{link}}">{{name}}</a></li> {{/ advertising.items}}
+    </ul>
+</div>
+</header>
+<p>{{pageBody.mainText}}</p>
+
+</body>
+</html>
