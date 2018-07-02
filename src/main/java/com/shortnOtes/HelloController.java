@@ -70,7 +70,7 @@ public class HelloController {
     String getFinalLinkOrientation(@RequestParam( "manipulatorFormul" ) String manipulatorFormul) throws IOException {
         RobotProtokol robotProtokol=new RobotProtokol();
         RobotModel robot = robotProtokol.getRobotModelFromFormul(manipulatorFormul);
-        com.shortnOtes.Robots.Counter counter =new com.shortnOtes.Robots.Counter();
+        com.shortnOtes.robots.Counter counter =new com.shortnOtes.robots.Counter();
         RobotModel.Joint joint = counter.getPosition(robot);
         String ans=robotProtokol.setRobotModelToFormul(joint);
         return  ans;

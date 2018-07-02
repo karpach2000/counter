@@ -1,4 +1,4 @@
-package com.shortnOtes.Robots
+package com.shortnOtes.robots
 
 /**
  * Класс занимающийся разбором протокола "РОБОТ"

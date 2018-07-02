@@ -1,4 +1,4 @@
-package com.shortnOtes.Robots
+package com.shortnOtes.robots
 
 import java.lang.Math.cos
 import java.lang.Math.sin
