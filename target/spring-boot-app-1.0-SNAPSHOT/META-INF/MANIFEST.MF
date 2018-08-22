@@ -1,8 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Version: 1.0-SNAPSHOT
-Built-By: karpa
-Implementation-Vendor-Id: com.shortnOtes
-Created-By: IntelliJ IDEA
-Build-Jdk: 1.8.0_171
-Main-Class: ${start-class}
-
